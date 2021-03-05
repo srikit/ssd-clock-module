@@ -1,5 +1,7 @@
 # Clock module with seven segment display
 
+![Front view of the clock module](https://raw.githubusercontent.com/srikit/ssd-clock-module/main/resources/images/ssd-clock-module-front-small.jpg)
+
 This simple LED clock module uses a highly stable *DS3231* real-time clock for timekeeping. The RTC and alarm are control by the *STM8S103* microcontroller. This module also provides a slot to install a small *CR1220* type battery to back up the time and alarm configuration. 
 
 The module can power up using 5V or 3V DC power source. The necessary power source can select using a jumper in the module.
