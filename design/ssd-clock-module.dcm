@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM8S103F3P3
+D Access line, 16 MHz STM8S 8-bit MCU
+K STM8
+F https://www.st.com/resource/en/datasheet/stm8s103f3.pdf
+$ENDCMP
+#
+#End Doc Library

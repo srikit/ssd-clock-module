@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ssd-clock-module)(type Legacy)(uri ${KIPRJMOD}/ssd-clock-module.lib)(options "")(descr ""))
+)

@@ -1,0 +1,327 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ssd-clock-module:STM8S103F3P3 U1
+U 1 1 5F8D7AC6
+P 2200 1500
+F 0 "U1" H 3700 1665 50  0000 C CNN
+F 1 "STM8S103F3P3" H 3700 1574 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4350 150 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm8s103f3.pdf" H 2950 1050 50  0001 C CNN
+	1    2200 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2150 5500 2150
+$Comp
+L Device:R R1
+U 1 1 5F8D7ACF
+P 4850 4250
+F 0 "R1" H 4920 4296 50  0000 L CNN
+F 1 "10K" H 4920 4205 50  0000 L CNN
+F 2 "" V 4780 4250 50  0001 C CNN
+F 3 "~" H 4850 4250 50  0001 C CNN
+	1    4850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F8D7AD5
+P 4850 4800
+F 0 "C1" H 4965 4846 50  0000 L CNN
+F 1 "0.1MFD" H 4965 4755 50  0000 L CNN
+F 2 "" H 4888 4650 50  0001 C CNN
+F 3 "~" H 4850 4800 50  0001 C CNN
+	1    4850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR05
+U 1 1 5F8D7ADB
+P 4850 3950
+F 0 "#PWR05" H 4850 3800 50  0001 C CNN
+F 1 "+3V3" H 4865 4123 50  0000 C CNN
+F 2 "" H 4850 3950 50  0001 C CNN
+F 3 "" H 4850 3950 50  0001 C CNN
+	1    4850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F8D7AE1
+P 4850 5100
+F 0 "#PWR06" H 4850 4850 50  0001 C CNN
+F 1 "GND" H 4855 4927 50  0000 C CNN
+F 2 "" H 4850 5100 50  0001 C CNN
+F 3 "" H 4850 5100 50  0001 C CNN
+	1    4850 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3950 4850 4100
+Wire Wire Line
+	4850 4950 4850 5100
+Wire Wire Line
+	4850 4400 4850 4550
+Wire Wire Line
+	4600 4550 4850 4550
+Connection ~ 4850 4550
+Wire Wire Line
+	4850 4550 4850 4650
+$Comp
+L Connector_Generic:Conn_01x02 TP2
+U 1 1 5F8D7AED
+P 5700 4550
+F 0 "TP2" H 5780 4542 50  0000 L CNN
+F 1 "RESET" H 5780 4451 50  0000 L CNN
+F 2 "" H 5700 4550 50  0001 C CNN
+F 3 "~" H 5700 4550 50  0001 C CNN
+	1    5700 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5F8D7AF3
+P 5400 5100
+F 0 "#PWR08" H 5400 4850 50  0001 C CNN
+F 1 "GND" H 5405 4927 50  0000 C CNN
+F 2 "" H 5400 5100 50  0001 C CNN
+F 3 "" H 5400 5100 50  0001 C CNN
+	1    5400 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4550 5500 4550
+Wire Wire Line
+	5500 4650 5400 4650
+Wire Wire Line
+	5400 4650 5400 5100
+$Comp
+L Device:CP1 C2
+U 1 1 5F8D7AFC
+P 5900 2550
+F 0 "C2" H 6015 2596 50  0000 L CNN
+F 1 "10MFD" H 6015 2505 50  0000 L CNN
+F 2 "" H 5900 2550 50  0001 C CNN
+F 3 "~" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5F8D7B02
+P 5900 2800
+F 0 "#PWR07" H 5900 2550 50  0001 C CNN
+F 1 "GND" H 5905 2627 50  0000 C CNN
+F 2 "" H 5900 2800 50  0001 C CNN
+F 3 "" H 5900 2800 50  0001 C CNN
+	1    5900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR03
+U 1 1 5F8D7B08
+P 5500 2550
+F 0 "#PWR03" H 5500 2400 50  0001 C CNN
+F 1 "+3V3" H 5515 2723 50  0000 C CNN
+F 2 "" H 5500 2550 50  0001 C CNN
+F 3 "" H 5500 2550 50  0001 C CNN
+	1    5500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2550 5500 2550
+Wire Wire Line
+	5900 2300 5900 2400
+Wire Wire Line
+	5900 2700 5900 2800
+$Comp
+L power:GND #PWR04
+U 1 1 5F8D7B11
+P 5500 2800
+F 0 "#PWR04" H 5500 2550 50  0001 C CNN
+F 1 "GND" H 5505 2627 50  0000 C CNN
+F 2 "" H 5500 2800 50  0001 C CNN
+F 3 "" H 5500 2800 50  0001 C CNN
+	1    5500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2700 5500 2800
+Wire Wire Line
+	5300 2700 5500 2700
+Wire Wire Line
+	5300 2300 5900 2300
+Text GLabel 1850 1700 0    50   Input ~ 0
+SEG2-DRV
+Text GLabel 1850 1800 0    50   Input ~ 0
+SEG3-DRV
+Text GLabel 1850 1900 0    50   Input ~ 0
+SEG4-DRV
+Wire Wire Line
+	1850 1600 1950 1600
+Wire Wire Line
+	2100 1700 1850 1700
+Wire Wire Line
+	1850 1800 2100 1800
+Wire Wire Line
+	2100 1900 1850 1900
+Text GLabel 1850 2000 0    50   Input ~ 0
+ALARM-LED
+Text GLabel 1850 2100 0    50   Input ~ 0
+ALARM-OUT
+Wire Wire Line
+	1850 2000 2100 2000
+Wire Wire Line
+	2100 2100 1850 2100
+Text GLabel 1850 2250 0    50   Input ~ 0
+BTN1
+Text GLabel 1850 2350 0    50   Input ~ 0
+BTN2
+Text GLabel 1850 2450 0    50   Input ~ 0
+BTN3
+Wire Wire Line
+	2100 2250 1850 2250
+Wire Wire Line
+	1850 2350 2100 2350
+Wire Wire Line
+	2100 2450 1850 2450
+Text GLabel 1850 2600 0    50   Input ~ 0
+RTC-SCL
+Text GLabel 1850 2700 0    50   Input ~ 0
+RTC-SDA
+Wire Wire Line
+	1850 2600 2100 2600
+Wire Wire Line
+	2100 2700 1850 2700
+NoConn ~ 5300 2000
+Text GLabel 5500 1900 2    50   Input ~ 0
+RTC-INT
+Wire Wire Line
+	5300 1900 5500 1900
+Text GLabel 5500 1800 2    50   Input ~ 0
+SSD-SR-SRCLK
+Text GLabel 5500 1700 2    50   Input ~ 0
+SSD-SR-RCLK
+Text GLabel 5500 1600 2    50   Input ~ 0
+SSD-SR-SER
+Wire Wire Line
+	5300 1800 5500 1800
+Wire Wire Line
+	5500 1700 5300 1700
+Wire Wire Line
+	5300 1600 5500 1600
+$Comp
+L Connector_Generic:Conn_01x04 TP1
+U 1 1 5F8D7B38
+P 1300 4450
+F 0 "TP1" H 1218 4767 50  0000 C CNN
+F 1 "ICP" H 1218 4676 50  0000 C CNN
+F 2 "" H 1300 4450 50  0001 C CNN
+F 3 "~" H 1300 4450 50  0001 C CNN
+	1    1300 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP2
+U 1 1 5F8D7B3F
+P 2100 5950
+F 0 "JP2" H 2100 6162 50  0000 C CNN
+F 1 "ICPJ" H 2100 6071 50  0000 C CNN
+F 2 "" H 2100 5950 50  0001 C CNN
+F 3 "~" H 2100 5950 50  0001 C CNN
+	1    2100 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 5F8D7B45
+P 1750 1600
+F 0 "JP1" H 1750 1812 50  0000 C CNN
+F 1 "ICPJ" H 1750 1721 50  0000 C CNN
+F 2 "" H 1750 1600 50  0001 C CNN
+F 3 "~" H 1750 1600 50  0001 C CNN
+	1    1750 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4350 1750 4350
+Wire Wire Line
+	1500 4450 1750 4450
+Text GLabel 1550 1600 0    50   Input ~ 0
+SEG1-DRV
+Wire Wire Line
+	1550 1600 1650 1600
+Text GLabel 1550 1200 0    50   Input ~ 0
+SWIM
+Wire Wire Line
+	1550 1200 1950 1200
+Wire Wire Line
+	1950 1200 1950 1600
+Connection ~ 1950 1600
+Wire Wire Line
+	1950 1600 2100 1600
+Text GLabel 1750 4450 2    50   BiDi ~ 0
+SWIM
+$Comp
+L power:GND #PWR01
+U 1 1 5F8D7B55
+P 1650 4800
+F 0 "#PWR01" H 1650 4550 50  0001 C CNN
+F 1 "GND" H 1655 4627 50  0000 C CNN
+F 2 "" H 1650 4800 50  0001 C CNN
+F 3 "" H 1650 4800 50  0001 C CNN
+	1    1650 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR02
+U 1 1 5F8D7B5B
+P 2550 4400
+F 0 "#PWR02" H 2550 4250 50  0001 C CNN
+F 1 "+3V3" H 2565 4573 50  0000 C CNN
+F 2 "" H 2550 4400 50  0001 C CNN
+F 3 "" H 2550 4400 50  0001 C CNN
+	1    2550 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4400 2550 4650
+Wire Wire Line
+	1500 4550 1650 4550
+Wire Wire Line
+	1650 4550 1650 4800
+Wire Wire Line
+	1500 4650 2550 4650
+Text GLabel 2350 5950 2    50   Output ~ 0
+RESET
+Wire Wire Line
+	1850 5950 2000 5950
+Wire Wire Line
+	2200 5950 2350 5950
+Text Notes 650  7550 0    50   ~ 0
+OPEN ICPJ (JP1, JP2) TO PERFORM IN-CIRCUIT PROGRAMMING.
+Text Notes 650  7400 0    50   ~ 0
+TP1 - MANUAL SYSTEM RESET FOR DEBUGING
+Text HLabel 5500 2150 2    50   Input ~ 0
+MASTER-RESET
+Text HLabel 4600 4550 0    50   Output ~ 0
+MASTER-RESET
+Text HLabel 1850 5950 0    50   Input ~ 0
+MASTER-RESET
+Text HLabel 1750 4350 2    50   BiDi ~ 0
+MASTER-RESET
+$EndSCHEMATC

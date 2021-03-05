@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ssd-clock-module-footprint)(type KiCad)(uri ${KIPRJMOD}/ssd-clock-module-footprint.pretty)(options "")(descr ""))
+)
