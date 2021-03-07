@@ -5,13 +5,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "Seven Segment Display based Digital Clock Module"
-Date "2020-10-15"
+Date "2021-03-07"
 Rev "1.0.0"
 Comp "SriKIT"
 Comment1 "KT0001"
 Comment2 "Dilshan R Jayakody"
-Comment3 "agasthi/ssd-clock-module"
-Comment4 "https://gitlab.com/agasthi/ssd-basic-clock-module"
+Comment3 "https://github.com/srikit/ssd-clock-module"
+Comment4 "https://srikit.net"
 $EndDescr
 $Comp
 L Timer_RTC:DS3231M U401

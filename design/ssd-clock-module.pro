@@ -1,4 +1,4 @@
-update=Sun 18 Oct 2020 07:09:45 PM +0530
+update=Sun 07 Mar 2021 11:20:42 AM +0530
 version=1
 last_client=kicad
 [general]
@@ -14,7 +14,7 @@ LibDir=
 [eeschema/libraries]
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=srikit-sheet.kicad_wks
 LastNetListRead=ssd-clock-module.net
 CopperLayerCount=2
 BoardThickness=1.6
@@ -64,7 +64,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -245,7 +245,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=/home/dilshan/projects/srikit/kicad-template/srikit-sheet.kicad_wks
+PageLayoutDescrFile=srikit-sheet.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

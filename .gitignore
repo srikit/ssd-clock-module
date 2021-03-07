@@ -33,3 +33,6 @@
 *.rst
 *.ihx
 *.rel
+
+#KiCAD backup files
+*.sch-bak
