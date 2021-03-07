@@ -36,3 +36,4 @@
 
 #KiCAD backup files
 *.sch-bak
+*.kicad_pcb-bak
