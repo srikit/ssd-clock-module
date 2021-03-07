@@ -9,3 +9,9 @@ The module can power up using 5V or 3V DC power source. The necessary power sour
 This clock module is designed to handle a generally available 14.2mm (0.56 inch) 4-digit seven-segment displays. This module use 12-pin (6-pin × 2) socket to connect the seven-segment display to the PCB, and it allows to mount the display unit off from the PCB.
 
 The "alarm terminal" of this module is available as an open-collector output, and it allows the user to connect an external circuitry to this module.
+
+This is an open-source hardware project. All the design files, [documentation](https://github.com/srikit/ssd-clock-module/wiki), firmware source code are available to download at the project source repository. All the content of this project are distributed under the terms of the following license:
+
+* Hardware License: [CERN-OHL-W](https://opensource.org/CERN-OHL-W)
+* Software License: [GNU GPL 3.0](https://github.com/srikit/ssd-clock-module/blob/main/LICENSE)
+* Documentation License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)
