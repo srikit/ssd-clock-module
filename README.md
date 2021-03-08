@@ -1,4 +1,5 @@
 # Clock module with seven segment display
+![KT0001](https://img.shields.io/badge/ID-KT0001-orange)
 
 ![Front view of the clock module](https://raw.githubusercontent.com/srikit/ssd-clock-module/main/resources/images/ssd-clock-module-front-small.jpg)
 
